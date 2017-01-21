@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app> 
+  
+<servlet>  
+<servlet-name>krishna</servlet-name>  
+<servlet-class>ContextServlet</servlet-class>  
+</servlet>  
+  
+<context-param>  
+<param-name>thenameofdriver</param-name>  
+<param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>  
+</context-param>  
+  
+<servlet-mapping>  
+<servlet-name>krishna</servlet-name>  
+<url-pattern>/context</url-pattern>  
+</servlet-mapping>  
+   
+</web-app>
